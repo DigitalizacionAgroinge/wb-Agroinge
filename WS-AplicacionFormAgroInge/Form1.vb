@@ -1,14 +1,17 @@
-﻿Public Class Form1
+﻿
+Public Class Form1
     Private Sub btnMetodoGET_Click(sender As Object, e As EventArgs) Handles btnMetodoGET.Click
 
         Dim url As String = "https://localhost:44386/WebService-Agroinge.asmx/Suma?numero="
 
-        Dim HttpRequest As New MSXML2.XMLHTTP30
+        ' Dim HttpRequest As New MSXML2.XMLHTTP30
 
-        HttpRequest.open("GET", url + (txtNumero.Text.ToString))
+        Dim HttpRequest As New MSXML.XMLHTTP30
+
+        HttpRequest.open("GET", url & CStr(Trim(txtNumero.Text)), False)
         HttpRequest.send()
 
-        Dim xml As MSXML2.DOMDocument
+        Dim xml As MSXML.DOMDocument
         xml = HttpRequest.ResponseXML
 
         Try
