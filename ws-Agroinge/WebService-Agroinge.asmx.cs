@@ -31,6 +31,8 @@ namespace ws_Agroinge
              return "Web Service de AgroInge";
          }*/
 
+
+
         [WebMethod]
         public int Suma(int Numero)
         {
