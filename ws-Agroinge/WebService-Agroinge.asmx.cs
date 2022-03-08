@@ -81,6 +81,11 @@ namespace ws_Agroinge
   
             IRestResponse response = client.Execute(request);
 
+           // XmlDocument DocumentoXML = new XmlDocument();
+
+
+            //DocumentoXML = (XmlDocument)(Newtonsoft.Json.JsonConvert.DeserializeXmlNode(Archivojson));
+            
             return Archivojson;
         }
 
