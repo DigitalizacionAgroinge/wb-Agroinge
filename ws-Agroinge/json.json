@@ -1,37 +1,39 @@
-{  
-  "asset_name": "Barril 1",
-  "description": "Barril Fermentacion 1",
-  "tag": "tag 1",
-  "sensors": [
-    {
-      "name": "Temperatura",
-      "value": "25 gC",
-      "icon": "thermometer-half",
-      "assetId": "1",
-      "id": "1"
-    },
-    {
-      "name": "Presion",
-      "value": "2.5 bar",
-      "icon": "thermometer-half",
-      "assetId": "1",
-      "id": "2"
-    },
-    {
-      "name": "Nivel",
-      "value": "91 %",
-      "icon": "tint",
-      "assetId": "1",
-      "id": "3"
-    },
-    {
-      "name": "pH",
-      "value": "4.3",
-      "icon": "tint",
-      "assetId": "1",
-      "id": "4"
-    }
-  ],
-  "guid": "c8e72bb4-3ddb-4517-8039-f20417a76640-0012b1df",
-  "id": "1"  
-}
+[
+  {
+    "asset_name": "Barril 1",
+    "description": "Barril Fermentacion 1",
+    "tag": "tag 1",
+    "sensors": [
+      {
+        "name": "Temperatura",
+        "value": "25 gC",
+        "icon": "thermometer-half",
+        "assetId": "1",
+        "id": "1"
+      },
+      {
+        "name": "Presion",
+        "value": "2.5 bar",
+        "icon": "thermometer-half",
+        "assetId": "1",
+        "id": "2"
+      },
+      {
+        "name": "Nivel",
+        "value": "91 %",
+        "icon": "tint",
+        "assetId": "1",
+        "id": "3"
+      },
+      {
+        "name": "pH",
+        "value": "4.3",
+        "icon": "tint",
+        "assetId": "1",
+        "id": "4"
+      }
+    ],
+    "guid": "c8e72bb4-3ddb-4517-8039-f20417a76640-0012b1df",
+    "id": "1"
+  }
+]
